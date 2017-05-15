@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Music player",
+  "version": "0.1.0",
+  "description": "Sets album as music background made by Pietro Primo",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["js.js"],
+    "matches": ["https://play.google.com/*"]
+  }]
+  
+  ,"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+ 
+}

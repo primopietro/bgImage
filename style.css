@@ -1,0 +1,36 @@
+
+body{
+transition: 3.7s all;
+ transition-delay: 3.5s;
+opacity:0.9;
+background-size: 110%;
+animation: translating 90s infinite;
+}
+
+
+#playerBarArt{
+transition:0.3s all;
+}
+
+#content-container{
+background-size: 4px 4px;
+}
+
+.cluster .header .cluster-title ,.section-header {
+color:white;
+}
+
+@keyframes translating {
+    0%{background-position:50% 50%;}
+	25%{background-position:20% 30%;}
+	50%{background-position:70% 60%;}
+	75%{background-position:15% 15%;}
+	100%{background-position:50% 50%;}
+}
+.entity-card.material-card .details .title {
+    color: white;
+}
+
+.entity-card.material-card .title.fade-out:after {
+height:0px;
+}
